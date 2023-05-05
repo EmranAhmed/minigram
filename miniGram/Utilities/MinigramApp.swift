@@ -9,6 +9,6 @@ import Foundation
 
 class MinigramApp {
     
-    static let appName = "AnaGram"
+    static let appName = "MiniGram"
     
 }
