@@ -13,6 +13,11 @@
 		1157685D29E1D741003F7B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1157685B29E1D741003F7B01 /* Main.storyboard */; };
 		1157685F29E1D743003F7B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1157685E29E1D743003F7B01 /* Assets.xcassets */; };
 		1157686229E1D743003F7B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1157686029E1D743003F7B01 /* LaunchScreen.storyboard */; };
+		1181EBCC2A025924001082DC /* MinigramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBCB2A025924001082DC /* MinigramApp.swift */; };
+		1181EBCF2A058DBC001082DC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBCE2A058DBC001082DC /* SplashViewController.swift */; };
+		1181EBD12A0593C4001082DC /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBD02A0593C4001082DC /* SplashViewModel.swift */; };
+		1181EBD32A0596CF001082DC /* SplashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBD22A0596CF001082DC /* SplashService.swift */; };
+		1181EBD52A059715001082DC /* SplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBD42A059715001082DC /* SplashModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		1157685E29E1D743003F7B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1157686129E1D743003F7B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1157686329E1D743003F7B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1181EBCB2A025924001082DC /* MinigramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigramApp.swift; sourceTree = "<group>"; };
+		1181EBCE2A058DBC001082DC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1181EBD02A0593C4001082DC /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		1181EBD22A0596CF001082DC /* SplashService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashService.swift; sourceTree = "<group>"; };
+		1181EBD42A059715001082DC /* SplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,76 @@
 		1157685429E1D741003F7B01 /* miniGram */ = {
 			isa = PBXGroup;
 			children = (
-				1157685529E1D741003F7B01 /* AppDelegate.swift */,
-				1157685729E1D741003F7B01 /* SceneDelegate.swift */,
-				1157685929E1D741003F7B01 /* ViewController.swift */,
-				1157685B29E1D741003F7B01 /* Main.storyboard */,
+				1181EBCD2A0259A2001082DC /* Storyboards */,
+				1181EBCA2A0258B2001082DC /* Utilities */,
+				1181EBC92A0258A3001082DC /* ViewModels */,
+				1181EBC82A02588F001082DC /* Services */,
+				1181EBC72A025885001082DC /* Models */,
+				1181EBC62A02586C001082DC /* ViewControllers */,
+				1181EBC52A025853001082DC /* AppDelegate */,
 				1157685E29E1D743003F7B01 /* Assets.xcassets */,
-				1157686029E1D743003F7B01 /* LaunchScreen.storyboard */,
 				1157686329E1D743003F7B01 /* Info.plist */,
 			);
 			path = miniGram;
+			sourceTree = "<group>";
+		};
+		1181EBC52A025853001082DC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1157685529E1D741003F7B01 /* AppDelegate.swift */,
+				1157685729E1D741003F7B01 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1181EBC62A02586C001082DC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1157685929E1D741003F7B01 /* ViewController.swift */,
+				1181EBCE2A058DBC001082DC /* SplashViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1181EBC72A025885001082DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1181EBD42A059715001082DC /* SplashModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1181EBC82A02588F001082DC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1181EBD22A0596CF001082DC /* SplashService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1181EBC92A0258A3001082DC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1181EBD02A0593C4001082DC /* SplashViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1181EBCA2A0258B2001082DC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1181EBCB2A025924001082DC /* MinigramApp.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1181EBCD2A0259A2001082DC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1157685B29E1D741003F7B01 /* Main.storyboard */,
+				1157686029E1D743003F7B01 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1181EBD52A059715001082DC /* SplashModel.swift in Sources */,
 				1157685A29E1D741003F7B01 /* ViewController.swift in Sources */,
+				1181EBD32A0596CF001082DC /* SplashService.swift in Sources */,
+				1181EBCC2A025924001082DC /* MinigramApp.swift in Sources */,
 				1157685629E1D741003F7B01 /* AppDelegate.swift in Sources */,
+				1181EBD12A0593C4001082DC /* SplashViewModel.swift in Sources */,
 				1157685829E1D741003F7B01 /* SceneDelegate.swift in Sources */,
+				1181EBCF2A058DBC001082DC /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
