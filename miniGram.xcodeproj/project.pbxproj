@@ -18,6 +18,7 @@
 		1181EBD12A0593C4001082DC /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBD02A0593C4001082DC /* SplashViewModel.swift */; };
 		1181EBD32A0596CF001082DC /* SplashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBD22A0596CF001082DC /* SplashService.swift */; };
 		1181EBD52A059715001082DC /* SplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBD42A059715001082DC /* SplashModel.swift */; };
+		1181EBD72A05A2CB001082DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBD62A05A2CB001082DC /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1181EBD02A0593C4001082DC /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		1181EBD22A0596CF001082DC /* SplashService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashService.swift; sourceTree = "<group>"; };
 		1181EBD42A059715001082DC /* SplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashModel.swift; sourceTree = "<group>"; };
+		1181EBD62A05A2CB001082DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				1157685929E1D741003F7B01 /* ViewController.swift */,
 				1181EBCE2A058DBC001082DC /* SplashViewController.swift */,
+				1181EBD62A05A2CB001082DC /* LoginViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1181EBD72A05A2CB001082DC /* LoginViewController.swift in Sources */,
 				1181EBD52A059715001082DC /* SplashModel.swift in Sources */,
 				1157685A29E1D741003F7B01 /* ViewController.swift in Sources */,
 				1181EBD32A0596CF001082DC /* SplashService.swift in Sources */,

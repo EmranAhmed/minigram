@@ -10,5 +10,7 @@ import Foundation
 class MinigramApp {
     
     static let appName = "MiniGram"
+    static let loginNavigationController = "LoginNavigationController"
+    // static let forgotPasswordNavigationController = "LoginNavigationController"
     
 }
