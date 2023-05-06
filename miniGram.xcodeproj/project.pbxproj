@@ -14,12 +14,14 @@
 		1157685D29E1D741003F7B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1157685B29E1D741003F7B01 /* Main.storyboard */; };
 		1157685F29E1D743003F7B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1157685E29E1D743003F7B01 /* Assets.xcassets */; };
 		1157686229E1D743003F7B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1157686029E1D743003F7B01 /* LaunchScreen.storyboard */; };
+		117C94082A07039100B8D87A /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117C94072A07039100B8D87A /* RegistrationViewController.swift */; };
 		1181EBCC2A025924001082DC /* MinigramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBCB2A025924001082DC /* MinigramApp.swift */; };
 		1181EBCF2A058DBC001082DC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBCE2A058DBC001082DC /* SplashViewController.swift */; };
 		1181EBD12A0593C4001082DC /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBD02A0593C4001082DC /* SplashViewModel.swift */; };
 		1181EBD32A0596CF001082DC /* SplashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBD22A0596CF001082DC /* SplashService.swift */; };
 		1181EBD52A059715001082DC /* SplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBD42A059715001082DC /* SplashModel.swift */; };
 		1181EBD72A05A2CB001082DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181EBD62A05A2CB001082DC /* LoginViewController.swift */; };
+		93376BE9926D87FF17A4C80C /* Pods_miniGram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CADA21B1DE5E851702051E5 /* Pods_miniGram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +34,16 @@
 		1157685E29E1D743003F7B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1157686129E1D743003F7B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1157686329E1D743003F7B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117C94072A07039100B8D87A /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		1181EBCB2A025924001082DC /* MinigramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigramApp.swift; sourceTree = "<group>"; };
 		1181EBCE2A058DBC001082DC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		1181EBD02A0593C4001082DC /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		1181EBD22A0596CF001082DC /* SplashService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashService.swift; sourceTree = "<group>"; };
 		1181EBD42A059715001082DC /* SplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashModel.swift; sourceTree = "<group>"; };
 		1181EBD62A05A2CB001082DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		346DAD54AE5EFA1A787A3279 /* Pods-miniGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniGram.debug.xcconfig"; path = "Target Support Files/Pods-miniGram/Pods-miniGram.debug.xcconfig"; sourceTree = "<group>"; };
+		4CADA21B1DE5E851702051E5 /* Pods_miniGram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_miniGram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D6C17C41ED895A50F1E2F3 /* Pods-miniGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniGram.release.xcconfig"; path = "Target Support Files/Pods-miniGram/Pods-miniGram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93376BE9926D87FF17A4C80C /* Pods_miniGram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		089F995BCCC7373F1E33FA9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CADA21B1DE5E851702051E5 /* Pods_miniGram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1157684929E1D741003F7B01 = {
 			isa = PBXGroup;
 			children = (
 				1157685429E1D741003F7B01 /* miniGram */,
 				1157685329E1D741003F7B01 /* Products */,
+				A82EF1DD381E40100168381F /* Pods */,
+				089F995BCCC7373F1E33FA9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +116,7 @@
 				1181EBCE2A058DBC001082DC /* SplashViewController.swift */,
 				1181EBD62A05A2CB001082DC /* LoginViewController.swift */,
 				1121C7F82A06E42A002C3E77 /* ForgotPasswordViewController.swift */,
+				117C94072A07039100B8D87A /* RegistrationViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -144,6 +162,15 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		A82EF1DD381E40100168381F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				346DAD54AE5EFA1A787A3279 /* Pods-miniGram.debug.xcconfig */,
+				C7D6C17C41ED895A50F1E2F3 /* Pods-miniGram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1157686629E1D743003F7B01 /* Build configuration list for PBXNativeTarget "miniGram" */;
 			buildPhases = (
+				9379F53808BB84405C40D1A2 /* [CP] Check Pods Manifest.lock */,
 				1157684E29E1D741003F7B01 /* Sources */,
 				1157684F29E1D741003F7B01 /* Frameworks */,
 				1157685029E1D741003F7B01 /* Resources */,
+				C3F3CC6895FB7990282B3C0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,6 +239,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9379F53808BB84405C40D1A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-miniGram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F3CC6895FB7990282B3C0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-miniGram/Pods-miniGram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-miniGram/Pods-miniGram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-miniGram/Pods-miniGram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1157684E29E1D741003F7B01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -218,6 +289,7 @@
 				1181EBD72A05A2CB001082DC /* LoginViewController.swift in Sources */,
 				1181EBD52A059715001082DC /* SplashModel.swift in Sources */,
 				1157685A29E1D741003F7B01 /* ViewController.swift in Sources */,
+				117C94082A07039100B8D87A /* RegistrationViewController.swift in Sources */,
 				1181EBD32A0596CF001082DC /* SplashService.swift in Sources */,
 				1181EBCC2A025924001082DC /* MinigramApp.swift in Sources */,
 				1157685629E1D741003F7B01 /* AppDelegate.swift in Sources */,
@@ -366,6 +438,7 @@
 		};
 		1157686729E1D743003F7B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346DAD54AE5EFA1A787A3279 /* Pods-miniGram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -393,6 +466,7 @@
 		};
 		1157686829E1D743003F7B01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D6C17C41ED895A50F1E2F3 /* Pods-miniGram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
