@@ -20,9 +20,6 @@ class SplashViewController: UIViewController {
         self.appNameLabel.text = splashViewModel.appName()
         
         Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(setTimeOut), userInfo: nil, repeats: false)
-        
-
-    
     }
     
     
@@ -33,25 +30,35 @@ class SplashViewController: UIViewController {
     
     
     func redirectToLoginScreen() {
-        if let loginNavigationController = self.storyboard?.instantiateViewController(withIdentifier: MinigramApp.loginNavigationController) as? UINavigationController {
-            
-            
-            if let currentWindow = UIApplication.shared.connectedScenes.first as? UIWindowScene {
-            
-                
-                if let currentScene = currentWindow.delegate as? SceneDelegate {
-                    currentScene.window?.rootViewController = loginNavigationController
-                }
-                
-            }
-            
-            
-            
+        
+        // Get Init LoginViewController by ID
+        
+        /*
+         if let loginNavigationController = self.storyboard?.instantiateViewController(withIdentifier: MinigramApp.loginNavigationController) as? UINavigationController {
+         
+         if let currentWindow = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+         
+         
+         if let currentScene = currentWindow.delegate as? SceneDelegate {
+         currentScene.window?.rootViewController = loginNavigationController
+         }
+         
+         }
+         */
+        
+        
+        let loginNavigationController = self.storyboard?.instantiateViewController(withIdentifier: MinigramApp.loginNavigationController)
+        
+        let currentWindow = UIApplication.shared.connectedScenes.first
+        
+        if let currentScene = currentWindow?.delegate as? SceneDelegate {
+            currentScene.window?.rootViewController = loginNavigationController
+        }
+    
             
             // self.present(loginNavigationController, animated: true)
             
-            
-        }
+        
     }
 
 }

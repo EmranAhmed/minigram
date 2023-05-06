@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1121C7F92A06E42A002C3E77 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1121C7F82A06E42A002C3E77 /* ForgotPasswordViewController.swift */; };
 		1157685629E1D741003F7B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1157685529E1D741003F7B01 /* AppDelegate.swift */; };
 		1157685829E1D741003F7B01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1157685729E1D741003F7B01 /* SceneDelegate.swift */; };
 		1157685A29E1D741003F7B01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1157685929E1D741003F7B01 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1121C7F82A06E42A002C3E77 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		1157685229E1D741003F7B01 /* miniGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1157685529E1D741003F7B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1157685729E1D741003F7B01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				1157685929E1D741003F7B01 /* ViewController.swift */,
 				1181EBCE2A058DBC001082DC /* SplashViewController.swift */,
 				1181EBD62A05A2CB001082DC /* LoginViewController.swift */,
+				1121C7F82A06E42A002C3E77 /* ForgotPasswordViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				1181EBD32A0596CF001082DC /* SplashService.swift in Sources */,
 				1181EBCC2A025924001082DC /* MinigramApp.swift in Sources */,
 				1157685629E1D741003F7B01 /* AppDelegate.swift in Sources */,
+				1121C7F92A06E42A002C3E77 /* ForgotPasswordViewController.swift in Sources */,
 				1181EBD12A0593C4001082DC /* SplashViewModel.swift in Sources */,
 				1157685829E1D741003F7B01 /* SceneDelegate.swift in Sources */,
 				1181EBCF2A058DBC001082DC /* SplashViewController.swift in Sources */,

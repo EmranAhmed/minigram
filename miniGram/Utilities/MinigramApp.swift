@@ -11,6 +11,7 @@ class MinigramApp {
     
     static let appName = "MiniGram"
     static let loginNavigationController = "LoginNavigationController"
-    // static let forgotPasswordNavigationController = "LoginNavigationController"
+    static let loginViewController = "LoginViewController"
+    static let forgotPasswordViewController = "ForgotPasswordViewController"
     
 }
